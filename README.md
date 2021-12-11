@@ -35,6 +35,7 @@ I, the creator, assume no liability for property damage or personal injury or th
 # Support Me
 
 Follow me on [Github](https://github.com/none-development)
+
 Like this 🙂
 
 # General information
