@@ -17,6 +17,8 @@
 
 This project demonstrates the feature of Unity Custom Script Support to execute maleware by prescise blocking some assembly that is not needed for game programming.
 
+This project serves only to illustrate the possibilities!
+
 **This script should not be used to encrypt other systems but should be used for study purposes.**
 
 # Important info
@@ -39,7 +41,6 @@ Follow me on [Github](https://github.com/none-development)
 ### Rules about this project
 * Dont use that to create Maleware
 * Run it only in a Virtual Mashine 
-* This project serves only to illustrate the possibilities!
 
 By Download this project you accept that!
 
