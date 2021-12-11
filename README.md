@@ -2,49 +2,44 @@
 
 
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/820443161167003678/820930234365771786/Unbenannt-2.png">
+  <img src="https://cdn.discordapp.com/attachments/910984049462476871/919182332085301298/Unbenannt-2.png">
 </p>
 
 # Project Infos
 
 <p align="center">
-  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Neko-Oneechan/unitypackage-Ransomware?style=for-the-badge">
-  <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/Neko-Oneechan/unitypackage-Ransomware?include_prereleases&style=for-the-badge">
-  <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/Neko-Oneechan/unitypackage-Ransomware/total?color=%230099cc&style=for-the-badge">
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/none-development/unitypackage-ransomware?style=for-the-badge">
+  <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/none-development/unitypackage-ransomware?include_prereleases&style=for-the-badge">
+  <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/none-development/unitypackage-ransomware/total?color=%230099cc&style=for-the-badge">
 </p>
 
 # About
 
-This is a proof of concept to encrypt files using a unitypackage.
+This project demonstrates the feature of Unity Custom Script Support to execute maleware by prescise blocking some assembly that is not needed for game programming.
 
 **This script should not be used to encrypt other systems but should be used for study purposes.**
 
-!!I assume no liability if you encrypt your files during testing!!
+# Important info
 
-!!!I assume no liability for property damage and personal injury thereby!!!
+I, the creator, assume no liability for property damage or personal injury or the misuse of this project!
+
+# Supportet Plattforms
+
+- Windows 11
+- Windows 10
+- Windows 8  [Not Testet]
+- Windows 7  [Not Testet]
 
 # Support Me
 
-This Concept is made by Mei-chan, to support my Work:
-
-<p align="center">
- <a href="https://www.paypal.me/meichan968" target="_blank"><img alt="Paypal" src="https://img.shields.io/badge/Donate-Paypal-blue?style=for-the-badge"></a>
-  <img alt="BTC" src="https://img.shields.io/badge/BTC-1APsMH6sARzX8h3GPW4d4NLnf8JUkP7SzQ-blue?style=for-the-badge">
-</p>
-
-or
-
-Follow me on [Github](https://github.com/Neko-Oneechan)
-
-For any support send me a e-mail: `admin@astronyia.xyx`
+Follow me on [Github](https://github.com/none-development)
 
 # General information
 
 ### Rules about this project
 * Dont use that to create Maleware
-* Dont Abuse it
-* Do not use it to harm others. This is only meant to test it on your virtual machine.
-* I forbid any use of this code to use it on anyone other than yourself
+* Run it only in a Virtual Mashine 
+* This project serves only to illustrate the possibilities!
 
 By Download this project you accept that!
 
@@ -61,25 +56,19 @@ By Download this project you accept that!
 * Pack the Unitypackage.
 
 
-**This script uses a password for each file, so it is impossible to decrypt them**
+**This script uses a password for each file, so it is impossible to decrypt them! Be careful with it**
 
 How it look after Run the Ransomware
 
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/804802833786208278/821362481980899338/unknown.png">
+  <img src="https://cdn.discordapp.com/attachments/910984049462476871/919182331804266536/unknown.png">
 </p>
 
 # Future Updates
 
 ### Todo/next updates
-- [x] Simple Ransomware
-- [x] Support Random String as Password 
-- [x] Random Salt Generator
-- [x] Random File Extensions
-- [x] File Extensions Chinese Strings
-- [x] Download other Ransomware to Encrypt after Unity Close
-- [x] Run Downloaded Ransomeware after Download
-- [x] Test package with decrypter
-- [x] Webhook Support to store the Key to decrypt your VM
-- [ ] Create Local Password-Salt Note Version
-- [ ] Store Filepassword to a webapplication in local network
+- [x] Release
+- [ ] Replaces Anti-Virus with a .txt file
+- [ ] WebAPI Support
+- [ ] Code injection to different Programms
+- [ ] Kernel Manipaltion
