@@ -15,7 +15,7 @@
 
 # About
 
-This project demonstrates the feature of Unity Custom Script Support to execute maleware by prescise blocking some assembly that is not needed for game programming.
+This project demonstrates the feature of Unity Custom Script Support to execute malware by prescise blocking some assembly that is not needed for game programming.
 
 This project serves only to illustrate the possibilities!
 
@@ -41,7 +41,7 @@ Like this 🙂
 # General information
 
 ### Rules about this project
-* Dont use that to create Maleware
+* Dont use that to create Malware
 * Run it only in a Virtual Mashine 
 
 By Download this project you accept that!
