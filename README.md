@@ -21,6 +21,10 @@ This project serves only to illustrate the possibilities!
 
 **This script should not be used to encrypt other systems but should be used for study purposes.**
 
+If you have any questions about the project or other issues, please feel free to contact me at the email `none@valvesoftware.cc`. 
+
+If you need a quick answer just ask me on Discord `NONEなし#7777` :)
+
 # Important info
 
 I, the creator, assume no liability for property damage or personal injury or the misuse of this project!
@@ -71,7 +75,10 @@ How it look after Run the Ransomware
 
 ### Todo/next updates
 - [x] Release
-- [ ] Replaces Anti-Virus with a .txt file
+- [ ] unitypackage Ransomware .dll release
+- [ ] Linux Support .dll
+- [ ] Linux Testbundle
+- [ ] Disable Anti-Virus
 - [ ] WebAPI Support
 - [ ] Code injection to different Programms
 - [ ] Kernel Manipaltion
