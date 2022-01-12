@@ -21,9 +21,17 @@ This project serves only to illustrate the possibilities!
 
 **This script should not be used to encrypt other systems but should be used for study purposes.**
 
-If you have any questions about the project or other issues, please feel free to contact me at the email `none@valvesoftware.cc`. 
+If you have any questions about the project or other issues, please feel free to contact me at the email
 
-If you need a quick answer just ask me on Discord `NONEなし#7777` :)
+```
+none@valvesoftware.cc
+```
+
+If you need a quick answer just ask me on Discord :)
+
+```
+NONEなし#7777
+```
 
 # Important info
 
