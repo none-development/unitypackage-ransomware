@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitypackageCrypter", "UnitypackageCrypter.csproj", "{F371DC81-0BCB-4AB9-AF81-DA6DB046B275}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F371DC81-0BCB-4AB9-AF81-DA6DB046B275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F371DC81-0BCB-4AB9-AF81-DA6DB046B275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F371DC81-0BCB-4AB9-AF81-DA6DB046B275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F371DC81-0BCB-4AB9-AF81-DA6DB046B275}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EF6BAF1-72C4-4733-8E1B-595D59E0FA21}
+	EndGlobalSection
+EndGlobal

@@ -83,7 +83,7 @@ How it look after Run the Ransomware
 
 ### Todo/next updates
 - [x] Release
-- [ ] unitypackage Ransomware .dll release
+- [x] unitypackage Ransomware .dll release
 - [ ] Linux Support .dll
 - [ ] Linux Testbundle
 - [ ] Disable Anti-Virus
