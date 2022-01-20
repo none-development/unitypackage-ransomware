@@ -30,7 +30,7 @@ none@valvesoftware.cc
 If you need a quick answer just ask me on Discord :)
 
 ```
-NONEなし#7777
+NONE#7777
 ```
 
 # Important info
