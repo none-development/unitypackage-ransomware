@@ -86,8 +86,8 @@ How it look after Run the Ransomware
 - [x] unitypackage Ransomware .dll release
 - [x] Improved performance and Multi-Task
 - [X] Removed Old Code
+- [X] Linux Support .dll
 - [ ] Re-Create Test-Unitypackage
-- [ ] Linux Support .dll
 - [ ] Linux Testbundle
 - [ ] WebAPI Support
 - [ ] Code injection to different Programms
