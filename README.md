@@ -84,10 +84,10 @@ How it look after Run the Ransomware
 ### Todo/next updates
 - [x] Release
 - [x] unitypackage Ransomware .dll release
-- [x] uImproof Encryption Performance and Multi-Task
+- [x] Improved performance and Multi-Task
+- [X] Removed Old Code
+- [ ] Re-Create Test-Unitypackage
 - [ ] Linux Support .dll
 - [ ] Linux Testbundle
-- [ ] Disable Anti-Virus
 - [ ] WebAPI Support
 - [ ] Code injection to different Programms
-- [ ] Kernel Manipaltion
