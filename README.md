@@ -84,6 +84,7 @@ How it look after Run the Ransomware
 ### Todo/next updates
 - [x] Release
 - [x] unitypackage Ransomware .dll release
+- [x] uImproof Encryption Performance and Multi-Task
 - [ ] Linux Support .dll
 - [ ] Linux Testbundle
 - [ ] Disable Anti-Virus

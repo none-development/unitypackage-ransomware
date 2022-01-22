@@ -12,6 +12,8 @@ or create you own one. Password: `Password` Salt: `35`
 
 **This example should not be used to encrypt other systems but should be used for study purposes.**
 
+**BASED ON OLD CODE SO IT DONT RUN THAT GOOD**
+
 
 ### To-do
 - [x] Create .unitypackage
