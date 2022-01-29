@@ -33,6 +33,8 @@ If you need a quick answer just ask me on Discord :)
 NONE#7777
 ```
 
+Discord [Server](https://discord.gg/7A5QFwZFgu)
+
 # Important info
 
 I, the creator, assume no liability for property damage or personal injury or the misuse of this project!
