@@ -1,12 +1,10 @@
 # Testpackage
 
-
-
 This is a Testpackage for the Script, this Version includes a other version from the Orginal Ransomware. 
 
-You can decrypt everything with the `Decrypter.exe`
+Please note: U cant Decrypt it!
 
-or create you own one. Password: `Password` Salt: `35`
+or create you own one. Password: `Test1234` Salt: `Random`
 
 **I assume no liability for property damage!!**
 
@@ -17,4 +15,3 @@ or create you own one. Password: `Password` Salt: `35`
 
 ### To-do
 - [x] Create .unitypackage
-- [x] Create Decrypter

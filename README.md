@@ -55,7 +55,7 @@ Like this 🙂
 # General information
 
 ### Rules about this project
-* Dont use that to create Malware
+* Dont use that to create Maleware
 * Run it only in a Virtual Mashine 
 
 By Download this project you accept that!
@@ -89,7 +89,6 @@ How it look after Run the Ransomware
 - [x] Improved performance and Multi-Task
 - [X] Removed Old Code
 - [X] Linux Support .dll
-- [ ] Re-Create Test-Unitypackage
-- [ ] Linux Testbundle
+- [X] Re-Create Test-Unitypackage
 - [ ] WebAPI Support
 - [ ] Code injection to different Programms
