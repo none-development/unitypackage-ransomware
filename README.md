@@ -35,6 +35,8 @@ NONE#7777
 
 Discord [Server](https://discord.gg/7A5QFwZFgu)
 
+Discord [Server 2](https://discord.gg/HYeZrKdRhm)
+
 # Important info
 
 I, the creator, assume no liability for property damage or personal injury or the misuse of this project!
